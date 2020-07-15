@@ -4,8 +4,6 @@
 
 **env** : python3
 
-**vul** : phpstudy_rce
-
 **args** :
 
 ```
@@ -23,12 +21,4 @@ optional arguments:
   -h, --help         show this help message and exit
   -u URL, --url URL  Target to detect.
   -c, --command      Whether to enter the interactive shell.
-```
-
-**e.g.** : 
-
-```python
-python3 phpstudy_rce.py -u http://example.com -c
-    -u 	http://example.com			# 指定目标
-    -c 						# 加上-c 写shell，不加只检测是否存在漏洞。
 ```
