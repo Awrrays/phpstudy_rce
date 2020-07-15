@@ -30,7 +30,7 @@ optional arguments:
 ```python
 python3 phpstudy_rce.py -u http://example.com -c
     -u 	http://example.com			# 指定目标
-    -c 								# 加上-c 写shell，不加只检测是否存在漏洞。
+    -c 						# 加上-c 写shell，不加只检测是否存在漏洞。
 ```
 
 **Test screenshot** ：
