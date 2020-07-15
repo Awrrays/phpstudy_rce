@@ -32,9 +32,3 @@ python3 phpstudy_rce.py -u http://example.com -c
     -u 	http://example.com			# 指定目标
     -c 						# 加上-c 写shell，不加只检测是否存在漏洞。
 ```
-
-**Test screenshot** ：
-
-<img src="./detect.png" alt="image-20200715135801214" style="zoom:80%;" />
-
-<img src="./getshell.png" alt="image-20200715140013848" style="zoom: 67%;" />
